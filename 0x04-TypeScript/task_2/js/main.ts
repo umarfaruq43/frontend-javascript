@@ -55,7 +55,7 @@ console.log(createEmployee(1000)); // Director
 console.log(createEmployee("$500")); // Director
 
 // Type predicate function
-function isDirector(employee: Director | Teacher): employee is Director {
+export function isDirector(employee: Director | Teacher): employee is Director {
     return employee instanceof Director;
 }
 
