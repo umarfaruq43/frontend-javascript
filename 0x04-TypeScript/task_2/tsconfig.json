@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "./dist/",
+        "outDir": "../0x04-typescript/task_0/dist",
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "es6",
